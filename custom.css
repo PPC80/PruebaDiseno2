@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    margin: 5rem auto;
+    /* border: 1px solid red; */
+}
+
+.form {
+    width: 35%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(177, 174, 174, 0.466);
+    /* border: 1px solid green; */
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 300px;
+    margin: auto auto;
+    /* border: 1px solid red; */
+}
+
+.btn-enviar {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contactame {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-github {
+    background: black;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #0072b1;
+    color: white;
+  }
+
+  .fa-whatsapp {
+    background: #25D366;
+    color: white;
+  }
+
+  .fa-globe {
+    background: black;
+    color: white;
+  }
+
+  .btn-social {
+    /* border: 1px solid red; */
+    width: 15%;
+    margin-bottom: 20px;
+  }
+
+  .footer-img {
+    position: fixed;
+    bottom: 0px;
+    z-index: -5;
+  }
